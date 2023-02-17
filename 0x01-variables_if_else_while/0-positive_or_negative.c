@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Function to generate ramdom numbers
+ * main - print the number if is positive negative or 0
  * Return: 0 (successful)
  */
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 
 	if (n > o)
 	{
-		printf("%d is possitive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
