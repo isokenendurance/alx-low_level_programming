@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - functions for random numbers
  * Return: 0 (successful)
@@ -12,7 +13,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is ", n);
-	num = % 10;
+	num = n % 10;
+	if (num > 5)
 	{
 		printf("%d and is greater that 5\n", num);
 	}
