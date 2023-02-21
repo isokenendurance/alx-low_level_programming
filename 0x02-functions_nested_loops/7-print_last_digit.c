@@ -2,15 +2,15 @@
 /**
  * print_last_digit - function that print last digit
  * @i: function parameter
- * Return: 0
+ * Return: k
  */
 
 int print_last_digit(int i)
 {
-	int lc = i % 10;
+	int k;
 
-	if (lc < 0)
-		lc *= -1;
-	_putchar(lc + '0');
-	return (0);
+	k = i % 10;
+	if (i < 0)
+		k = -k;
+	return (k);
 }
