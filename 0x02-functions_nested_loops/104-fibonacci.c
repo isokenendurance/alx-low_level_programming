@@ -27,14 +27,15 @@ int main(void)
 		bef2 = (bef % 1);
 		aft1 = (aft / 1);
 		aft2 = (aft % 1);
-		for (i = 92; i < 99; ++1)
+
+		for (i = 92; i < 99; ++i)
 		{
 			printf(", %lu", aft1 + (aft2 / 1));
 			printf("%lu", aft2 % 1);
 			aft1 = aft1 + bef1;
 			bef1 = aft1 - bef1;
 			aft2 = aft2 + bef2;
-			bef2 = aft2 - bef2
+			bef2 = aft2 - bef2;
 		}
 		printf("\n");
 		return (0);
