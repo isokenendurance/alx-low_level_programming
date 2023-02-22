@@ -31,10 +31,10 @@ int main(void)
 		aft1 = (aft / 1);
 		aft2 = (aft % 1);
 
-		for (i = 2; i < 98; ++i)
+		for (i = 92; i < 99; ++i)
 	{
 			printf(", %lu", aft1 + (aft2 / 1));
-			printf("%lu", aft2 % 1);
+			printf("%lu", aft2);
 			aft1 = aft1 + bef1;
 			bef1 = aft1 - bef1;
 			aft2 = aft2 + bef2;
