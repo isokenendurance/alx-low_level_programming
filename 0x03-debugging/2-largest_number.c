@@ -9,7 +9,7 @@
 
 int largest_number(int a, int b, int c)
 {
-	int largest;
+	iint largest;
 
 	if (a > b && a > c)
 	{
